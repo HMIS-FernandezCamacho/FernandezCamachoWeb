@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Feedback evaluator</title>
+    <title>FernandezCamachoWeb</title>
     <link rel="icon" href="assets/comentario.png" />
 
     <!-- Font Awesome icons(version gratis)-->
@@ -15,23 +15,23 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
 
     <!-- Plantilla de estilos CSS integrada con boostrap-->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">Feedback evaluator</a>
+            <a class="navbar-brand" href="#page-top">HMIS-PáginaEquipo</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#page-top">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#evaluate">Our Application</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#page-top">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="adrian.html">Adrian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mariano.html">Mariano</a></li>
                 </ul>
             </div>
         </div>
@@ -41,10 +41,9 @@
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto text-uppercase">Feedback evaluator</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">We evaluate and classify the comments on your website</h2>
-                    <a class="btn btn-primary" href="#about">About us</a>
-                    <a class="btn btn-primary" href="#evaluate">Go to the app</a>
+                    <h1 class="mx-auto text-uppercase" style="color:white">Página del equipo FernándezCamacho</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Esta es nuestra página web de equipo para la asignatura de HMIS</h2>
+                    <a class="btn btn-primary" href="https://github.com/HMIS-FernandezCamacho/FernandezCamachoWeb">GitHub del equipo</a>
 
                 </div>
             </div>
@@ -55,48 +54,16 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white mb-4">About us</h1>
+                    <h1 class="text-white mb-4">Información del equipo</h1>
                     <p class="aboutus-paragraph text-white-50">
-                        Our product is capable of evaluating any comment written in natural language by using neurons trained in a MatLab environment.
+                        Somos el equipo 11, compuesto por Mariano Fernández Agüero y Adrián Camacho Capilla.
                         <!--Nuestro producto es capaz de evaluar cualquier comentario escrito en lenguaje natural mediante el uso de neuronales entrenadas en un entorno MatLab.-->
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Evaluate-->
-    <section class="evaluate-section" id="evaluate">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-10 col-lg-8 mx-auto text-center">
-                    <i class="far fa-comment-dots fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Introduce your opinion</h2>
-
-                    <!-- FORMULARIO -->
-                    <form class="form-evaluate" id="evaluateForm" method="POST">
-                        <!-- Commentary input-->
-                        <div class="row input-group-newsletter">
-                            <div class="col"><input class="form-control required" id="opinion" name="opinion" type="text" placeholder="Introduce your opinion" /></div>
-                            <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit">Evaluate Comment</button></div>
-                        </div>
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3 mt-2 text-white">
-                                <div class="fw-bolder">Your opinion has been sent correctly!</div>
-                                <br />
-                            </div>
-                        </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3 mt-2">There was an error sending your opinion!</div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+  
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">Copyright &copy; FernandezCamacho - Universidad de Almería</div>
