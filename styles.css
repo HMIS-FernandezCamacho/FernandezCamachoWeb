@@ -11553,7 +11553,18 @@ background-color: black;
   background-attachment: scroll;
   background-size: cover;
 }
-.masthead h1, .masthead .h1 {
+.masthead-mariano {
+  position: relative;
+  width: 100%;
+  min-height: 35rem;
+  padding-top: 15rem ;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("bg-masthead-mariano.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.masthead h1, .masthead .h1, .masthead-mariano h1, .masthead-mariano .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
