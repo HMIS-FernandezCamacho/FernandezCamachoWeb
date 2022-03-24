@@ -11570,6 +11570,7 @@ background-color: black;
   letter-spacing: 0.8rem;
   -webkit-background-clip: text;
           background-clip: text;
+          color: white;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
